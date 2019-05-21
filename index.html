@@ -1,107 +1,204 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
-  <link href="style.css" rel="stylesheet">
- 
+
+
+  <title>Resume</title>
+
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="css/font_awesome.css" rel="stylesheet">
+  <link href="css/font_awsome_1.css" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <link href="css/resume.css" rel="stylesheet">
+
 </head>
 
-<body >
-  <div id="page-top" >
-    <div> 
-      <img src="img/tonoy.jpg">
-    </div>
-  
+<body id="page-top">
 
-    <section id='address'>
-      <div >
-        <h1 >Mir Habib Ul Latif</h1>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Mir Habib Ul Latif</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/tonoy.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Mir Habib
+          <span class="text-primary">Ul Latif</span>
         </h1>
-        <div>
-          <h3>Address</h3>
-          <p>50, West Malibag,Dhaka<p>
-          <p href=''><a>mirsahib24@gmail.com</a>><p>
+        <div class="subheading mb-5">50 West Malibagh,Dhaka-1217
+          <a href="mailto:name@email.com">mirsahib24@gmail.com</a>
         </div>
-        <p >I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+        <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+        <div class="social-icons">
+          <a href="https://github.com/mirsahib">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.facebook.com/mirsahib24">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
       </div>
     </section>
 
-  
+    <hr class="m-0">
 
-    <section id='education'>
-      <div >
-        <h2>Education</h2>
-        <div >
-          <div >
-            <h3 >Independent University Bangladesh</h3>
-            <div >Bachelor of Science</div>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Independent University Bangladesh</h3>
+            <div class="subheading mb-3">Bachelor of Science</div>
             <div>Computer Science</div>
             <p>GPA: 3.21</p>
           </div>
-          <div >
-            <span >August 2015 - Present</span>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2015 - Present</span>
           </div>
         </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Cephalone International</h3>
+            <div class="subheading mb-3">A level</div>
+            <p>Physics -- B</p>
+            <p>Mathematics -- D</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">January 2013 - January 2015</span>
+          </div>
+        </div>
+        <!--Olevel-->
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Cephalone International</h3>
+            <div class="subheading mb-3">O level</div>
+            <p>Accounting -- A</p>
+            <p>Bengali -- A</p>
+            <p>Chemistry -- B</p>
+            <p>Physics -- B</p>
+            <p>Mathematics B -- C</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">January 2011 - January 2013</span>
+          </div>
+        </div>
+        <!--School-->
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Willes Little Flower School</h3>
+            <div class="subheading mb-3">Nursery- Std-10</div>
+            
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">January 2000 - January 2010</span>
+          </div>
+        </div>
+
       </div>
     </section>
 
+    <hr class="m-0">
 
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
 
-    <section id='skill'>
-      <div>
-        <h2>Skills</h2>
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab fa-html5"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-js-square"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-node-js"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-java"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-php"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-python"></i>
+          </li>
+        </ul>
+    </section>
 
-        <div>Programming Languages &amp; Tools</div>
-        <table border ='1'>
-            <tr>
-                <th>Skill</th>
-                <th>Level</th>
-            </tr>
-            <tr>
-                <td>C++</td>
-                <td>Advance</td>
-            </tr>
-            <tr>
-                <td>Java</td>
-                <td>Advance</td>
-            </tr>
-            <tr>
-                <td>Python</td>
-                <td>Intermediate</td>
-            </tr>
-            <tr>
-                <td>Javascript</td>
-                <td>Intermediate</td>
-            </tr>
-        </table>
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <div class="w-100">
+        <h2 class="mb-5">Interests</h2>
+        <p>Apart from being a Data Scientist, I enjoy most of my time hangout with my friend travelling and eat the most delicious food that place could offer</p>
+        <p class="mb-0">When forced indoors, I follow a number of crime-thriller genre movies television shows and football, I am an avid Arsenal fan, and I spend a large amount of my free time exploring the latest technology advancements in Machine Learning and Artificial Intelligence.</p>
       </div>
     </section>
 
+    <hr class="m-0">
 
-
-    <section id='interest' >
-      <div >
-        <h2 >Interests</h2>
-        <p>Apart from being a Data Scientist, I enjoy most of my time hangout with my friend travelling and eat the most delicious food that place could offer </p>
-        <p>When forced indoors, I follow a number of crime-thriller genre movies television shows and football, I am an avid Arsenal fan, and I spend a large amount of my free time exploring the latest technology advancements in Machine Learning and Artificial Intelligence.</p>
-      </div>
-    </section>
-    <section id='contact'>
-      <h2>Contact</h2>
-      <form>
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="contact">
+      <div class="w-100">
+        <h2 class="mb-5">Contact</h2>
+        <form>
           First name:<br>
           <input type="text" name="firstname" ><br>
           Last name:<br>
           <input type="text" name="lastname" ><br><br>
-          <textarea name="comment" form="usrform">Enter your message here</textarea><br><br>
+          <textarea name="comment" form="usrform"></textarea><br><br>
           <input type="submit" value="Submit">
       </form>
+      </div>
     </section>
 
 
   </div>
 
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <script src="js/resume.min.js"></script>
 
 </body>
 
