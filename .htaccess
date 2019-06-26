@@ -1,0 +1,2 @@
+RewriteCond %{js/resume.min.js} !-f
+RewriteCond %{vendor/jquery-easing/jquery.easing.min.js} !-d
